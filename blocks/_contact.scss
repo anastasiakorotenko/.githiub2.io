@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    background-color: #F4F9FC;
+    height: 310px;
+    &__body {
+        display: flex;
+        width: 1140px;
+        margin: 100px auto;
+        align-items: center;
+        gap: 323px;
+    }
+    &__zag {
+        @include text-red;
+        width: 120px;
+    }
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40.43px;
+        width: 345px;
+    }
+    &__text {
+        line-height: 21px;
+        color: $grey;
+        width: 360px;
+    }
+    &__form {
+        background-color: #fff;
+        display: flex;
+        border: 1px solid #0000001A;
+    }
+    &__input {
+        line-height: 21px;
+        height: 50px;
+        width: 335px;
+        padding: 15px 0 14px 26px;
+    }
+    &__button {
+        background-color: $blue;
+        color: #fff;
+        padding: 13px 26px 14px 27px;
+        font-weight: 600;
+        line-height: 22.64px;
+        text-align: center;
+        height: 50px;
+        cursor: pointer;
+        &:active {
+            background-color: #20689f;
+        }
+    }
+}

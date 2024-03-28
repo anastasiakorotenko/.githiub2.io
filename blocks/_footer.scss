@@ -1,0 +1,51 @@
+.footer {
+    background-color: $black;
+    height: 396px;
+    display: flex;
+    &__body {
+        display: flex;
+        gap: 31px;
+        width: 1140px;
+        margin: 75px auto 0;
+    }
+    &__img {
+        margin: 5px 0 22px;
+    }
+    &__title {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.87px;
+        margin-bottom: 11px;
+    }
+    &__text, &__icon, &__link {
+        color: #fff;
+        opacity: 60%;
+        line-height: 22.64px;
+    }
+    &__text {
+        width: 261px;
+    }
+    &__icon-box {
+        display: flex;
+        gap: 25px;
+        margin: 53px 0 52.75px;
+    }
+    &__links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 165px;
+    }
+    &__link {
+        &:hover {
+            color: #fff;
+            opacity: 100%;
+        }
+    }
+    &__icon {
+        &:hover {
+            opacity: 100%;
+        }
+    }
+}

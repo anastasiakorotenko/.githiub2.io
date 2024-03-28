@@ -1,0 +1,39 @@
+.special-offer {
+    &__body {
+        display: flex;
+        gap: 30px;
+        margin: 160px auto 163px;
+        width: 1140px;
+    }
+    &__box {
+        display: flex;
+        background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+        width: 555px;
+        height: 296px;
+        align-items: center;
+    }
+    &__text-box {
+        margin: 10px 0 0 35px;
+        height: 147px;
+        width: 249px;
+    }
+    &__text {
+        color: #F4F9FC;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+    &__text_grey {
+        color: #C2BDEE;
+        font-size: 16px;
+    }
+    &__slogan {
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 40.3px;
+    }
+    &__img {
+        display: flex;
+        margin-right: -40px;
+    }
+}

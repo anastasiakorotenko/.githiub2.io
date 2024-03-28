@@ -1,0 +1,48 @@
+.recent-product {
+    &__body {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        gap: 32.33px;
+        width: 1140px;
+    }
+    &__img-box {
+        position: relative;
+    }
+    &__img-cart {
+        position: absolute;
+        top: -22px; left: 240px;
+    }
+    &__text-box {
+        width: 256px;
+    }
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40.43px;
+        margin-bottom: 9px;
+    }
+    &__subtitle {
+        color: #686E73;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    &__text-cash {
+        display: flex;
+        gap: 2px;
+        margin-bottom: 15px;
+    }
+    &__palka {
+        color: $grey;
+        line-height: 27px;
+    }
+    &__text {
+        @include cash;
+    }
+    &__text_grey {
+        @include grey-cash;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
