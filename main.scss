@@ -1,0 +1,54 @@
+@import "_nullstyle.scss";
+
+
+@font-face {
+    font-family: "Hind Siliguri";
+    src: url("fonts/HindSiliguri-Regular.ttf");
+}
+
+$blue: #247CC0;
+$black: #030D15;
+$red: #C72535;
+$grey: #80868A;
+
+body {
+    min-width: 1170px;
+    font-family: "Hind Siliguri";
+    color: $black;
+    ::selection {
+        color: $blue;
+        background-color: #EAF2F9;
+    }
+}
+
+@mixin cash {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+@mixin grey-cash {
+    color: $grey;
+    text-decoration: line-through;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+@mixin text-red {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.87px;
+    letter-spacing: 0.145em;
+    color: $red;
+    text-transform: uppercase;
+}
+
+@import "blocks/header";
+@import "blocks/home";
+@import "blocks/recent-product";
+@import "blocks/special-offer";
+@import "blocks/about";
+@import "blocks/products";
+@import "blocks/shop";
+@import "blocks/contact";
+@import "blocks/footer"
